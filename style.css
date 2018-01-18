@@ -1,0 +1,47 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  color: #010a4c;
+  font-family: monospace;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 30px;
+}
+/*"Raleway",*/
+.container {
+  background: #97d1db;
+  width: 75vw;
+  height: 100vh;
+  margin: auto;
+}
+.content{
+  width: 60vw;
+  margin: auto;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+}
+
+.quotes{
+  font-size: 20px;
+}
+
+.quote-whole{
+  background: #35b5f4;
+}
+
+.about , .quotes-section {
+  padding: 10px;
+  width: 35vw;
+}
